@@ -13,4 +13,27 @@ for name in names:
     print("="*40)
 
 
+#str클래스의 메서드 
+# print(dir(str))
+strA = "python is very powerful"
+strB = "파이썬은 강력해!"
+print(len(strA))
+print(len(strB))
+print(strA.capitalize())
+print(strA.count("p"))
+print(strA.count("p",7))
+print("demo.ppt".endswith("ppt"))
+print("MBC:2580".isalnum())
+print("2580".isdecimal())
+
+strData = "<<< spam and ham >>>"
+result = strData.strip("<> ")
+print(strData)
+print(result)
+result = result.replace("spam", "spam egg")
+print(result)
+lst = result.split() 
+print(lst)
+print("--다시 원래대로 복구--")
+print(":)".join(lst))
 
