@@ -14,3 +14,11 @@ print(result.group())
 print(bool(re.search("apple", "this is apple")))
 print(bool(re.match("apple", "this is apple")))
 
+#연도를 찾는 경우
+result = re.search("\d{4}", "올해는 2022년")
+print(result.group())
+
+result = re.search("\d{5}", "우리동네는 52300")
+print(result.group())
+
+
